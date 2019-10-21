@@ -11,9 +11,38 @@
   src: url('../fonts/calibriItalic.ttf');
 }
 
-$font-family-sans-serif    : calibri, sans-serif;
-$font-family-italic        : calibri-italic;
-$font-family-bold          : calibri-bold;
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('../fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Gilroy Italic';
+    src: url('../fonts/Gilroy-RegularItalic.eot');
+    src: url('../fonts/Gilroy-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-RegularItalic.woff') format('woff'),
+        url('../fonts/Gilroy-RegularItalic.ttf') format('truetype'),
+        url('../fonts/Gilroy-RegularItalic.svg#Gilroy-RegularItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'Gilroy Regular';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype'),
+        url('../fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+}
+
+
+
+$font-family-sans-serif    : 'Gilroy Regular', sans-serif;
+$font-family-italic        : 'Gilroy Italic';
+$font-family-bold          : 'Gilroy Bold';
 $font-family-base          : $font-family-sans-serif;
 $font-size-base            : 18px;
 $line-height-base          : 1.56;
@@ -25,8 +54,9 @@ $white                     : #fff;
 $black                     : #000;
 $text-color                : #737373;
 $text-color-second         : #4a4a4a;
-$link-color                : #0084ff;
-$link-color-hover          : #004280;
+$link-color                : #86ae43;
+// $link-color                : #0084ff;
+$link-color-hover          : #826344;
 $blue-button-color         : #007fff;
 $light-gray                : #e5e5e5;
 $footer-nav-bg             : #f4f4f4;
