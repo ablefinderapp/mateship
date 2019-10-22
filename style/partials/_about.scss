@@ -26,8 +26,7 @@ body {
   }
 }
 .mission-promo {
-  background-image: url('../images/about_title.jpg');
-  @include image-2x("../images/about_title@2x.jpg", cover, cover);
+  background-image: url('../images/pattern.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 41%;
@@ -244,7 +243,6 @@ body {
       position: absolute;
       transform:translate(-50%, -50%);
       background-image: url('../images/icon_how_we_work.png');
-      @include image-2x("../images/icon_how_we_work@2x.png", cover, cover);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;
